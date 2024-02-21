@@ -1,0 +1,249 @@
+ * {
+            margin: 0;
+            padding: 0;
+        }
+    html{
+        scroll-behavior: smooth;
+    }
+
+        .container {
+            margin: auto;
+            width: 75%;
+
+            /* border: 1px solid red; */
+        }
+
+        .bold{
+            font-weight: bold;
+        }
+
+        .font1{
+            font-size: 25px;
+        }
+
+        .font2{
+            font-size: 15px;
+        }
+
+        .fontG{
+            color: grey;
+        }
+
+        .colg{
+            color: #5ab963;
+        }
+
+        button{
+            margin: auto;
+            padding: 15px 20px;
+            font-size: 20px;
+            background-color: #5ab963;
+            border: none;
+            border-radius: 5px;
+            color: white;
+        }
+
+        /* -------------------------------------------------------------------------------- */
+
+        .ucontainer {
+            position: relative;
+            height: 570px;
+
+            background-color: rgb(0, 0, 0, 0.5);
+            color: white;
+        }
+
+
+        .ucontainer::before {
+            content: "";
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            z-index: -1;
+
+            background: url("berries-g878542e9b_1920.jpg") no-repeat center center/cover;
+            /* opacity: 0.5; */
+        }
+
+        .containerHero {
+            height: 570px;
+        }
+        .itemNav {
+            display: flex;
+            align-items: center;
+            height: 80px;
+        }
+        .navRight {
+            display: flex;
+            margin-left: auto;
+            align-items: center;
+            justify-content: center;
+        }
+        .itemNav a {
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            margin: 10px;
+            padding: 10px;
+            text-decoration: none;
+        }
+        .itemNav button {
+            background-color: transparent;
+            border: 2px solid white;
+            padding: 10px 10px;
+            margin: 0px 10px;
+        }
+        .itemNav button:hover{
+            background-color: white;
+            color: #000;
+        }
+        .itemHero {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 490px;
+            width: 100%;
+            /* border: 1px solid black; */
+        }
+        .heroContentIn {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            text-align: center;
+        }
+        .heroContentIn h1 {
+            /* margin: 30px; */
+
+            font-size: 70px;
+        }
+        .heroContentIn p {
+            margin: 30px;
+            font-size: 15px;
+        }
+        .heroContentIn button {
+            margin: auto;
+            padding: 15px 20px;
+            font-size: 20px;
+            background-color: #5ab963;
+            border: none;
+            border-radius: 5px;
+            color: white;
+        }
+        .container3Cards {
+            display: flex;
+            flex-direction: column;
+            height: 700px;
+        }
+        .container3Cards .itemText1 {
+            width: 50%;
+            margin: 100px 0px;
+        }
+        .threeCardsIn{
+            display: flex;
+            /* border: 1px solid red; */
+        }
+        .card{
+            width: 30%;
+            height: 300px;
+            box-shadow: 0px 0px 10px rgb(211, 211, 211);
+            margin: 10px;
+            padding: 0px 20px;
+            display: flex;
+            align-items: center;
+            border-radius: 10px;
+        }
+        .cardContent p:nth-child(2){
+            margin: 20px 0px;
+        }
+        .foodImage{
+            width: 97%;
+            margin: 20px;
+        }
+        .text{
+            /* font-size: 25px; */
+            height: 300px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .text a{
+            margin: 50px 0px;
+            /* font-size: 15px; */
+            text-decoration: none;
+        }
+        hr{
+            opacity: 0.5;
+        }
+        .sectionCards2{
+            margin: 0px auto;
+            padding: 50px 0px;
+            /* border: 1px solid red; */
+        }
+        .containerCards2{
+            margin: 100px 0px;
+            /* border: 1px solid rgb(0, 0, 0); */
+        }
+        .containerCards2:nth-child(2){
+            display: flex;
+            justify-content: end;
+        }
+        .itemCards2{
+            display: flex;
+            /* border: 1px solid green; */
+        }
+        .itemCards2 p{
+            /* font-size: 25px; */
+            margin: 0px 100px;
+        }
+        .card2text p:nth-child(4){
+            /* font-size: 20px; */
+            margin: 40px 100px;
+        }
+        .text2{
+            text-align: center;
+            margin: 30px 0px;
+        }
+        .text2 p{
+            margin: 20px 0px;
+        }
+        .partyOn{
+            display: flex;
+            height: 300px;
+        }
+        .partyOn .left{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .partyOn .left p:nth-child(1){
+            margin: 10px 0px;
+        }
+        .partyOn .right{
+            display: flex;
+            margin-left: auto;
+            align-items: center;
+            justify-content: center;
+        }
+        footer{
+            background-color: #0a0e1a;
+            color: white;
+            height: 300px;
+        }
+        footer .container{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            height: 100%;
+        }
+        footer .left{
+            margin: 90px 0px;
+        }
+        footer .right{
+            margin: 90px 0px;
+            display: grid;
+            grid-template-columns: 100px 100px 200px 70px;
+        }
